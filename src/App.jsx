@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <h2>IRD Foundation</h2>
+      <h2 className="font-bold text-purple-500 bg-green-400 p-4">
+        IRD Foundation
+      </h2>
     </>
   );
 }
