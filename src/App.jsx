@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         IRD Foundation
       </h2> */}
       <Navbar />
+      <Sidebar />
     </>
   );
 }
