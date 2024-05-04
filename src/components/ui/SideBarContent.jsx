@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MenuCard from "./MenuCard";
 import SearchInput from "./SearchInput";
 
@@ -17,12 +18,17 @@ const SideBarContent = () => {
           {/* Search Item */}
           <SearchInput />
           <div>
-            <MenuCard
-              id={"1"}
-              title={"ওহীর সূচনা অধ্যায়"}
-              hadisRange="১ - ৭"
-            />
-            <MenuCard id={"2"} title={"ঈমান"} hadisRange="১ - ৭" />
+            <Link to="/ohi">
+              <MenuCard
+                id={"1"}
+                title={"ওহীর সূচনা অধ্যায়"}
+                hadisRange="১ - ৭"
+              />
+            </Link>
+            <Link to="/iman">
+              <MenuCard id={"2"} title={"ঈমান"} hadisRange="১ - ৭" />
+            </Link>
+
             <MenuCard
               id={"3"}
               title={"ওহীর সূচনা অধ্যায়"}

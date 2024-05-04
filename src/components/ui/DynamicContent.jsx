@@ -2,7 +2,7 @@ import { FaBook } from "react-icons/fa";
 
 const DynamicContent = () => {
   return (
-    <div className="w-[830px] m-4">
+    <div className="w-[833px] m-4">
       {/* top first part */}
       <div className="bg-white mb-4 rounded-md">
         <div className="breadcrumb bg-[#FAFBFB] py-2 px-4 border-b-2 border-gray-300 rounded-md">
