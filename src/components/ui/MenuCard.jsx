@@ -3,10 +3,8 @@
 const MenuCard = ({ id, title, hadisRange }) => {
   return (
     <div className=" p-4 hover:bg-[#EBFCF6] rounded-lg flex items-center gap-8 my-3 cursor-pointer">
-      <div className="bg-[#2B9E76] text-white p-3 rounded-lg flex items-center justify-between">
-        <div className="flex items-center">
-          <span className="">{id}</span>
-        </div>
+      <div className="bg-[#2B9E76] text-white p-3 rounded-lg">
+        <span className="">{id}</span>
       </div>
       <div>
         <h2 className="text-[15px]">{title}</h2>
