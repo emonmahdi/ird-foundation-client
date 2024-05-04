@@ -24,7 +24,7 @@ const SearchInput = () => {
           type="search"
           name="q"
           className="w-full border-2 py-2 text-sm text-black  rounded-md pl-10 focus:outline-none focus:bg-white"
-          placeholder="Search by category"
+          placeholder="Search For Filter"
           autoComplete="off"
         />
       </div>

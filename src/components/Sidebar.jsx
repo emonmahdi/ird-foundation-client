@@ -6,10 +6,10 @@ import { IoPaperPlaneOutline } from "react-icons/io5";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="bg-white">
       <div className="w-[100px] fixed h-screen shadow">
         <ul className="mx-6 text-center">
-          <li className="mt-[40px] p-3 cursor-pointer text-center text-xl hover:bg-gray-300 hover:rounded-lg hover:text-green-500">
+          <li className="mt-[40px] p-3 cursor-pointer text-center text-xl hover:bg-gray-300 hover:rounded-lg hover:text-green-500 hover:font-bold">
             <GoHome />
           </li>
           <li className="mt-[40px] p-3 cursor-pointer text-center text-xl hover:bg-gray-300 hover:rounded-lg hover:text-green-500">
