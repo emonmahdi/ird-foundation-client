@@ -20,7 +20,7 @@ const Iman = () => {
               <FiLayers />
             </div>
             <div>
-              <p>Bukhari &gt; 1 &gt;</p>
+              <p>Bukhari &gt; 2 &gt;</p>
             </div>
           </div>
         </div>
