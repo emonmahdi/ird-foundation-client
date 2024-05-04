@@ -9,7 +9,7 @@ import shareImg from "../assets/share.png";
 import warningImg from "../assets/warning.png";
 import allahLogoImg from "../assets/allah-logo.png";
 
-const Iman = () => {
+const Oju = () => {
   return (
     <div className="w-[833px] m-4">
       {/* top first part */}
@@ -160,4 +160,4 @@ const Iman = () => {
   );
 };
 
-export default Iman;
+export default Oju;

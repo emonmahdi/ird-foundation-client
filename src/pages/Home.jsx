@@ -12,13 +12,12 @@ const Home = () => {
         <div>
           <Sidebar />
         </div>
-        <div className="flex justify-between bg-[#F2F4F6] h-screen ml-24 rounded-md">
+        <div className="flex justify-between bg-[#F2F4F6] h-auto ml-24 rounded-md">
           {/* Sidebar Menu Content */}
           <SideBarContent />
           <Outlet />
           {/* Dynamic Content */}
           {/* <DynamicContent /> */}
-           
         </div>
       </div>
     </div>

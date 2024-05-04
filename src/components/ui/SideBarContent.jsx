@@ -28,16 +28,18 @@ const SideBarContent = () => {
             <Link to="/iman">
               <MenuCard id={"2"} title={"ঈমান"} hadisRange="১ - ৭" />
             </Link>
-
-            <MenuCard
-              id={"3"}
-              title={"ওহীর সূচনা অধ্যায়"}
-              hadisRange="৮ - ৫৮"
-            />
-            <MenuCard id={"4"} title={"ইল্‌ম"} hadisRange="৫৯ - ১৩৪" />
-            <MenuCard id={"5"} title={"ওজু"} hadisRange="১৩৫ - ২৪৭" />
-            <MenuCard id={"6"} title={"গোসল"} hadisRange="২৪৮ - ২৯৩" />
-            <MenuCard id={"7"} title={"হায়েজ"} hadisRange="২৯৪ - ৩৩৩" />
+            <Link to="/ilm">
+              <MenuCard id={"3"} title={"ইল্‌ম"} hadisRange="৫৯ - ১৩৪" />
+            </Link>
+            <Link to="/oju">
+              <MenuCard id={"4"} title={"ওজু"} hadisRange="১৩৫ - ২৪৭" />
+            </Link>
+            <Link to="/gosol">
+              <MenuCard id={"5"} title={"গোসল"} hadisRange="২৪৮ - ২৯৩" />
+            </Link>
+            <Link to="/hayej">
+              <MenuCard id={"6"} title={"হায়েজ"} hadisRange="২৯৪ - ৩৩৩" />
+            </Link>
           </div>
         </div>
       </div>
